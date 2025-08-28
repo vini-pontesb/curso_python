@@ -1,0 +1,5 @@
+nome = input('Qual é o seu nome? ').strip()
+n_mai = print('Seu nome em maiúsculo é {}'.format(nome.upper()))
+n_min = print('Seu nome em minúsculo é {}'.format(nome.lower()))
+q_let = print('Seu nome tem {} letras'.format(len(nome) - nome.count(' ')))
+q_let1 = print('Seu primeiro nome tem {} letras'.format(len(nome.split()[0])))
